@@ -39,4 +39,4 @@ jobs:
           app-name: 'winconsuptionfunc2'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A9A0445425C4AE59C95D0BD5BADB0E3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_98D2F111395E4222BB0F5FC06DEA5841 }}
