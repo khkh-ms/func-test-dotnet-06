@@ -39,4 +39,4 @@ jobs:
           app-name: 'windowsconsumptionfunc2'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_89BB521C553E4DF198CBF742592A83E5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_62DE9A87727942138770D41AA0EB27B4 }}
