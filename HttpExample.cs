@@ -26,8 +26,8 @@ namespace LocalFunctionProj
             name = name ?? data?.name;
 
             string responseMessage = string.IsNullOrEmpty(name)
-                ? "This V6 HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response. Az Deploy 04 - LG"
-                : $"Hello from V6, {name}. This HTTP triggered function executed successfully. Az Deploy 04 - LG";
+                ? "This V10 HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response. Az Deploy 04 - LG"
+                : $"Hello from V10, {name}. This HTTP triggered function executed successfully. Az Deploy 04 - LG";
 
             return new OkObjectResult(responseMessage);
         }
